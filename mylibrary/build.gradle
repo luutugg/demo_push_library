@@ -14,7 +14,7 @@ publishing {
         maven(MavenPublication) {
             groupId "com.example.mylibrary"
             artifactId "my-lib"
-            version "0.0.1"
+            version "0.0.3"
             artifact sourceJar
             artifact "$buildDir/outputs/aar/mylibrary-release.aar"
 
